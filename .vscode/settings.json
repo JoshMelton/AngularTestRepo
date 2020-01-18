@@ -1,0 +1,41 @@
+{
+    "editor.tabSize": 2,
+    "tslint.enable": true,
+    "tslint.autoFixOnSave": true,
+    "[html]": {
+        "editor.formatOnSave": true,
+    },
+    "[scss]": {
+        "editor.formatOnSave": true,
+    },
+    "htmlhint.enable": true,
+    "beautify.ignore": ["*.ts", "*.scss"], // html formatting
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "files.exclude": {
+        "**/node_modules": true,
+        "dist": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "package-lock.json": true,
+        "tsconfig.**json": true,
+        "tslint.json": true,
+        "angular.json": true,
+        "browserslist": true,
+        "karma.conf.js": true,
+        ".gitignore": true,
+        ".editorconfig": true,
+    },
+    "htmlhint.options": {
+        "doctype-first": false
+    },
+    "editor.wordWrapColumn": 100,
+    "workbench.editor.enablePreview": false,
+    "git.ignoreLimitWarning": true
+}

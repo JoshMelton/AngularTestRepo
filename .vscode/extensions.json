@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+      "eamodio.gitlens",
+      "sibiraj-s.vscode-scss-formatter",
+      "hookyqr.beautify",
+      "eg2.tslint",
+      "mkaufman.htmlhint",
+      "coenraads.bracket-pair-colorizer",
+      "aaron-bond.better-comments",
+      "joelday.docthis",
+      "angular.ng-template",
+  ]
+}
