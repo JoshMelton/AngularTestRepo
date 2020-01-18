@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { LoginComponent } from './Login/login.view';
 
 
-const routes: Routes = [];
+const routes: Routes = [ // * Keep routes sorted
+  {path: '', component: LoginComponent, pathMatch: 'full'},
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
